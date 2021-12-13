@@ -2,6 +2,28 @@ $primary: #f8f9fa;
 $white: white;
 $black: #212529;
 
-.logo-text, .social{
+.head{
+    display: flex;
+    flex-direction: row;
+    .social a{
+        margin: 10px;
+        i{
+            color: $black;
+        }
+    }
+    .navigation nav ul{
+        display: flex;
+        flex-direction: row;
+            li{
+                list-style-type: none;
+            }
+            a{
+                text-decoration: none;
+                margin: 10px;
+                color: $black;
+            }
+    }
+}
+.logo-text, .social a{
     color: $black;
 }
