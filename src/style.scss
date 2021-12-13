@@ -68,10 +68,11 @@ header{
         // neina elementų nuleisti į paveiksliuko apačią
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        // align-items: flex-start;
         // justify-self: flex-end;
         // position: relative;
         color: $white;
+        margin-bottom: 50px;
         h1{
             width: 50%;
             color: white;
@@ -85,7 +86,8 @@ header{
             background-color: transparent;
             border: solid $yellow 1px;
             padding: 10px;
-            display: inline-block;
+            // display: inline-block;
+            width: fit-content;
             cursor: pointer;
             color: $white;
         }

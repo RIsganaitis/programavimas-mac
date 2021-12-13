@@ -107,10 +107,8 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   color: #f8f9fa;
+  margin-bottom: 50px;
 }
 
 .background-pic .container h1 {
@@ -127,7 +125,9 @@ header {
   background-color: transparent;
   border: solid #f5ba4b 1px;
   padding: 10px;
-  display: inline-block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   cursor: pointer;
   color: #f8f9fa;
 }
