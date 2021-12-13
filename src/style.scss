@@ -2,28 +2,53 @@ $primary: #f8f9fa;
 $white: white;
 $black: #212529;
 
+header{
+    background-color: white;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
 .head{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    .social{
+        padding: 10px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+            p{
+                margin: 0;
+            }
+    }
     .social a{
-        margin: 10px;
+        margin: 10px 5px;
         i{
             color: $black;
+            padding: 10px;
         }
     }
     .navigation nav ul{
         display: flex;
         flex-direction: row;
+        align-items: center;
+            p{
+                margin: 0;
+            }
             li{
                 list-style-type: none;
             }
             a{
                 text-decoration: none;
-                margin: 10px;
+                margin: 10px 0;
                 color: $black;
+                padding: 5px;
             }
     }
 }
-.logo-text, .social a{
+.logo{
     color: $black;
+    padding: 16px;
+    font-size: 25px;
 }
