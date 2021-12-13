@@ -105,10 +105,12 @@ header {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  color: #f8f9fa;
 }
 
 .background-pic .container h1 {
   width: 50%;
+  color: white;
 }
 
 .background-pic .container button {
@@ -118,5 +120,32 @@ header {
   padding: 10px;
   display: inline-block;
   cursor: pointer;
+  color: #f8f9fa;
+}
+
+.section-2 .center {
+  text-align: center;
+}
+
+.section-2 h2, .section-2 h3 {
+  color: #212529;
+}
+
+.section-2 p {
+  color: gray;
+}
+
+.wrapped {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  text-align: center;
+  padding: 20px;
+}
+
+.wrapped i {
+  color: #f5ba4b;
 }
 /*# sourceMappingURL=style.css.map */
