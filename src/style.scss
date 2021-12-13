@@ -2,6 +2,11 @@ $yellow: #f5ba4b;
 $black: #212529;
 $white: #f8f9fa;
 
+body{
+    margin: 0;
+    font-family: "Fira Mono", monospace;
+}
+
 header{
     background-color: white;
 }
@@ -55,7 +60,7 @@ header{
 .background-pic{
     background-image: url(./img/bg.jpg);
     width: 100%;
-    min-height: 600px;
+    min-height: 800px;
     background-size: cover;
     display: flex;
     align-items: flex-end;
@@ -71,6 +76,10 @@ header{
             width: 50%;
             color: white;
         }
+        p{
+            width: 55%;
+            // letter-spacing: 0.1rem;
+        }
         button{
             background-image: none;
             background-color: transparent;
@@ -85,6 +94,7 @@ header{
 
 
 .section-2{
+    padding-top: 20px;
     .center{
         text-align: center;
     }
