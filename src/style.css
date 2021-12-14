@@ -254,13 +254,13 @@ header {
 .section-3 .left {
   padding: 20px;
   padding-left: 0;
-  width: 60%;
+  width: 65%;
 }
 
 .section-3 .right {
   padding: 20px;
   padding-right: 0;
-  width: 40%;
+  width: 35%;
   border-left: solid 1px #f5ba4b;
   display: inline-block;
 }
@@ -331,7 +331,11 @@ header {
 footer {
   background-color: #343a40;
   height: 250px;
-  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 footer .container {
@@ -351,6 +355,7 @@ footer .container .logo-text {
 
 footer .container p {
   color: #eeeeee;
+  padding-left: 10px;
 }
 
 footer .container .navigation ul {

@@ -200,12 +200,12 @@ header{
         .left{
             padding: 20px;
             padding-left: 0;
-            width: 60%;
+            width: 65%;
         }
         .right{
             padding: 20px;
             padding-right: 0;
-            width: 40%;
+            width: 35%;
             border-left: solid 1px $yellow;
             display: inline-block;
         }
@@ -281,10 +281,14 @@ header{
 footer{
     background-color: $dark-grey;
     height: 250px;
-    padding-top: 100px;
+    // padding-top: 100px;
+    display: flex;
+    align-content: center;
     .container{
         display: flex;
         justify-content: space-between;
+        // align-content: center;
+        // margin: auto;
         .logo-text{
                 color: $white;
                 padding: 16px;
@@ -292,6 +296,7 @@ footer{
         }
         p{
             color: $light-grey;
+            padding-left: 10px;
         }
         .navigation ul{
             display: flex;
