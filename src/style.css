@@ -411,6 +411,10 @@ footer .container .navigation ul a {
   color: #eeeeee;
 }
 
+footer .container .navigation ul a:hover {
+  color: #f5ba4b;
+}
+
 footer .container .social {
   padding: 10px 0;
   display: -webkit-box;
@@ -437,6 +441,10 @@ footer .container .social i {
   padding: 10px;
 }
 
+footer .container .social i:hover {
+  color: #eeeeee;
+}
+
 @media only screen and (max-width: 768px) {
   .head .head-space .social {
     display: none;
@@ -450,7 +458,7 @@ footer .container .social i {
     height: 600px;
   }
   .background-pic .container h1, .background-pic .container p {
-    width: 100%;
+    width: 95%;
     padding-left: 10px;
   }
   .background-pic .container button {
@@ -479,6 +487,11 @@ footer .container .social i {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .grey-background .container h2 {
+    width: 80%;
+    margin: auto;
+    padding-right: 20px;
+  }
   .grey-background .container .section-3 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -490,6 +503,7 @@ footer .container .social i {
   }
   .grey-background .container .section-3 .left, .grey-background .container .section-3 .right {
     width: 80%;
+    margin: auto;
   }
   footer .container {
     display: -webkit-box;
