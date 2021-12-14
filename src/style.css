@@ -69,7 +69,7 @@ header {
   padding: 10px;
 }
 
-.head .navigation nav ul {
+.head .navigation-1 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,15 +82,15 @@ header {
           align-items: center;
 }
 
-.head .navigation nav ul p {
+.head .navigation-1 nav ul p {
   margin: 0;
 }
 
-.head .navigation nav ul li {
+.head .navigation-1 nav ul li {
   list-style-type: none;
 }
 
-.head .navigation nav ul a {
+.head .navigation-1 nav ul a {
   text-decoration: none;
   margin: 10px 0;
   color: #212529;
@@ -158,7 +158,7 @@ header {
 }
 
 .background-white {
-  height: 400px;
+  min-height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -196,6 +196,7 @@ header {
       flex-wrap: nowrap;
   text-align: center;
   padding: 20px;
+  max-width: 100%;
 }
 
 .section-2 .wrapped .middle {
@@ -209,10 +210,11 @@ header {
 
 .grey-background {
   background-color: #eeeeee;
-  height: 400px;
+  min-height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 10px;
 }
 
 .grey-background .container {
@@ -433,5 +435,118 @@ footer .container .social a {
 footer .container .social i {
   color: #f5ba4b;
   padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .head .head-space .social {
+    display: none;
+  }
+  .container .head .navigation-1 {
+    display: none;
+  }
+  .background-pic {
+    font-size: 1.5em;
+    width: 100%;
+    height: 600px;
+  }
+  .background-pic .container h1, .background-pic .container p {
+    width: 100%;
+    padding-left: 10px;
+  }
+  .background-pic .container button {
+    margin-left: 10px;
+  }
+  .container {
+    width: 100%;
+  }
+  .wrapped {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
+  .grey-background .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .grey-background .container .section-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .grey-background .container .section-3 .left, .grey-background .container .section-3 .right {
+    width: 80%;
+  }
+  footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .container .footer-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .container .footer-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .container .footer-right .navigation ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-left: 5px;
+  }
+  footer .container .footer-right .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .photos .container .photos-bottom {
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .photo-3, .photo-4 {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
