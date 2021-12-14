@@ -104,16 +104,17 @@ header{
         color: $black;
     }
     p{
+        font-size: 0.5em;
         color: gray;
     }
-
-}
-.wrapped{
-    display: flex;
-    flex-wrap: nowrap;
-    text-align: center;
-    padding: 20px;
-    i{
-        color: $yellow;
+    .wrapped{
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: center;
+        padding: 20px;
+        i{
+            color: $yellow;
+        }
     }
+
 }
